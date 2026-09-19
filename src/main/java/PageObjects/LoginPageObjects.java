@@ -42,7 +42,7 @@ public class LoginPageObjects {
     @FindBy(xpath="//span[text()='Log Out']")
     private WebElement logOut;
     
-    // Action methods
+    // Action methods - mini tour code
     public void clickLoginButton() {
         loginButtonClk.click();
     }
