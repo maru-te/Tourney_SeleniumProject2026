@@ -16,7 +16,7 @@ public class BaseTest {
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.manage().window().maximize();
-		driver.get("https://google.com/");
+		driver.get("https://tourneysoft.com/");
 
 	}
 
