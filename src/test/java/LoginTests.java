@@ -9,9 +9,6 @@ import CommonFunctions.BaseTest;
 import PageObjects.LoginPageObjects;
 
 public class LoginTests extends BaseTest {
-	
-	//This is added in Mini tour branch - new branch
-	
 
 	@Test(priority = 1)
 	public void loginWithEmptyEmailAndPassword() {
